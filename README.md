@@ -1,14 +1,8 @@
 # MiniMind 从零复现项目
 
-> 从零复现 MiniMind 26M 语言模型完整训练流程，用于大模型/NLP方向暑期实习简历项目。
+> 从零复现 MiniMind 26M 语言模型完整训练流程
 >
-> 完整记录 Pretrain → SFT → DPO → 垂直领域微调 的每一步，附每日学习笔记和实验数据。
-
-## 项目背景
-
-- **目标**：暑期实习，方向大模型/NLP算法
-- **内容**：从零复现 MiniMind 26M 语言模型完整训练流程
-- **产出**：GitHub 项目 + 知乎博客 + 简历项目描述 + 面试问答
+> 完整记录 Pretrain → SFT → DPO → 垂直领域微调 的每一步，附实验数据
 
 ## 开发环境
 
@@ -94,4 +88,7 @@ fix:  修复问题
 ## 参考资料
 
 - [MiniMind 原始项目](https://github.com/jingyaogong/minimind)
+- [minimind 从零理解llm训练](https://www.minimind.wiki)
+- [MiniMind | 大模型训练原理教程](https://github.com/joyehuang/minimind-notes)
+- [MiniMind Notes](https://jingyaogong.github.io/minimind/)
 - 每日笔记见 [docs/](docs/) 目录
