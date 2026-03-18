@@ -29,9 +29,9 @@ export PYTORCH_ENABLE_MPS_FALLBACK=1
 - [x] 配好 conda 环境，PyTorch MPS 验证通过
 - [x] git clone minimind，安装依赖
 - [x] 下载数据集（pretrain_hq / sft_mini_512 等）
-- [ ] Pretrain 跑通（loss 下降验证）
-- [ ] SFT 跑通
-- [ ] 推理对话跑通
+- [x] Pretrain 跑通（500步，loss 7.43 → 6.45）
+- [x] SFT 跑通
+- [x] 推理对话跑通（184 tokens/s，25.83M 参数）
 - [ ] 读懂 Attention + RoPE 实现
 - [ ] 垂直领域 SFT（医疗问答）
 - [ ] 写知乎复现博客
