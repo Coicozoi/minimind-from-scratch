@@ -250,8 +250,8 @@ def plot_grpo_r1():
     out = os.path.join(OUT_DIR, "grpo_r1_curves.png")
     plt.savefig(out, dpi=120, bbox_inches="tight")
     plt.close()
-    print(f"[ok] {out}  (reward {np.mean(rewards[:20]):.3f} -> {np.mean(rewards[-20:]):.3f}, "
-          f"correct {np.mean(corrects[:20]):.3f} -> {np.mean(corrects[-20:]):.3f})")
+    print(f"[ok] {out}  (reward {np.mean(rewards[:20]):.3f} -> {np.mean(rewards[-100:]):.3f}, "
+          f"correct {np.mean(corrects[:20]):.3f} -> {np.mean(corrects[-100:]):.3f})")
 
 
 # ============================================================================
@@ -307,7 +307,7 @@ def plot_grpo_comparison():
     axes[1].set_ylabel("Reward")
     axes[1].set_title(f"GRPO v2: Rule-based R1-style Reward\n"
                      f"(GSM8K format+correctness, {len(s2)} steps, "
-                     f"{np.mean(r2[:20]):.2f} -> {np.mean(r2[-20:]):.2f})")
+                     f"{np.mean(r2[:20]):.2f} -> {np.mean(r2[-100:]):.2f})")
     axes[1].grid(alpha=0.3)
 
     plt.tight_layout()
