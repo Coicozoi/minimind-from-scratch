@@ -1,0 +1,15 @@
+*.pth
+*.bin
+*.safetensors
+*.parquet
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+out/
+checkpoints/
+sglang_ckpt*/
+wandb/
+dataset/*.jsonl
+dataset/data/
